@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58871bd5-3e30-4689-acb8-2f1eeb912375" name="Default Changelist" comment="" />
+    <list default="true" id="58871bd5-3e30-4689-acb8-2f1eeb912375" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +13,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dpYTELpDFbaoRVUuShThv7w5hR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -26,12 +33,42 @@
       <option name="presentableId" value="Default" />
       <updated>1593123506589</updated>
     </task>
+    <task id="LOCAL-00001" summary="First level, creating project structure">
+      <created>1593123570066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593123570066</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First level, creating project structure">
+      <created>1593123623114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593123623114</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First level, creating project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="First level, creating project structure" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="-1306" y="136" key="CommitChangelistDialog2" timestamp="1593123568546">
+    <state x="-1306" y="136" key="CommitChangelistDialog2" timestamp="1593123621639">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1306" y="136" key="CommitChangelistDialog2/0.0.1366.768/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1593123568546" />
+    <state x="-1306" y="136" key="CommitChangelistDialog2/0.0.1366.768/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1593123621639" />
   </component>
 </project>
