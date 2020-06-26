@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+ .center{
+     text-align:center;
+     background-color: DarkSlateGray;
+ }
+ .centerHeader{
+     text-align:center;
+     background-color: LightSkyBlue;
+     padding: 20px;
+     margin-top: 0px;
+ }
+.flex-container {
+  display: flex;
+  background-color: DarkSlateGray;
+}
+
+.flex-container > div {
+
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+.col-1 {width: 25.5%;height :400px; border: 1px solid red;  background-color: DarkCyan;}
+.col-2 {width: 40%; height :400px;border: 1px solid red; background-color: LightSeaGreen;}
+.col-3 {width: 27%;height :400px; border: 1px solid red; background-color:SkyBlue;}
+</style>
+</head>
+<body>
+<div class="">
+     <h1 class="centerHeader">Header</h1>
+</div>
+<div class="flex-container">
+    <div>Menu1</div>
+    <div>Menu2</div>
+    <div>Menu3</div>
+</div>
+<div class="row">
+<div class="col-1">
+   <p>column1</p>
+</div>
+<div class="col-2">
+    <p>column2</p>
+</div>
+<div class="col-3">
+    <p>column3</p>
+</div></div>
+<div class="">
+    <h1 class="center">Footer</h1>
+</div>
+
+
+</body>
+</html>
