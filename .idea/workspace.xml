@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58871bd5-3e30-4689-acb8-2f1eeb912375" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flexbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/responsive.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
