@@ -1,4 +1,4 @@
-<script>
+
    //Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript
       function max(firstNum,secondNum){
           if(firstName > secondName){
@@ -13,7 +13,9 @@
        function maxThree(num1,num2,num3){
             return Math.max(num1,num2,num3);
       }
-
+function display() {
+   alert("Hello World!");
+}
 
       // Write a function isVowel() that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
       function isVowel(string){
@@ -88,4 +90,3 @@
                     });
                     return q;
                     }
-</script>
