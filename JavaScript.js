@@ -1,4 +1,9 @@
 
+     function display() {
+        alert("Hello World!");
+     }
+
+
    //Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript
       function max(firstNum,secondNum){
           if(firstName > secondName){
@@ -7,21 +12,24 @@
             console.log(secondNum + " is larger than "+firstNum);
           }
       }
+      console.log("Expected output of max(10,5) is 10  "+TestMax(10,function () {return max(10,5)}()));
+
+      document.writeln( `<h6 class='filler'>  Q1 : Expected output of max(10,5) is 10  `+TestMax(10,function () {return max(10,5)}())  + "</h6>");
+
+      console.assert(max(10,5)==10,"Number is Invalid [Messege From Assertion] ")
 
 
       //Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them
        function maxThree(num1,num2,num3){
             return Math.max(num1,num2,num3);
       }
-function display() {
-   alert("Hello World!");
-}
+
 
       // Write a function isVowel() that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
       function isVowel(string){
             var text;
             var string=string.toLowerCase();
-            var vowels=(['a','e','i','o','u']);
+            var vowels=(['a','e','i','o','u','y']);
 
             for(var i=0; i <=vowels.length; i++){
                   if(string != vowels[i]){
@@ -46,10 +54,9 @@ function display() {
                 	return "sum = " +total ": multiply" + total1;
 
               }
-              var nums = [1,2,3,4],
-                  x = sumAndMultiply(nums);
 
-              document.getElementById("filler").innerHTML = x;
+
+
 
           //Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar")
           //should return the string "ratset gaj"
